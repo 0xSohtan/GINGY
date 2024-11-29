@@ -772,6 +772,15 @@
     display: none;
   }
 
+  .stick-link-block {
+    padding-top: 10px;
+  }
+
+  .sticky-link {
+    width: 40px;
+    height: 40px;
+  }
+
   .image-section {
     height: 80svh;
   }
@@ -790,6 +799,15 @@
   .text-section, .hot {
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+
+  .social-link {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    display: grid;
   }
 
   .footer-buy {
